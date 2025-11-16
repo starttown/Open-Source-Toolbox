@@ -1,19 +1,27 @@
 [
   {
-    "name": "图片平面套版工具集",
-    "description": "可视化设计模板，支持批量替换图片素材，让海报制作效率倍增。",
+    "name": "平面图套版工具集",
+    "description": "可视化设计模板，支持批量替换图片素材，让平面图批量生成效率倍增",
     "icon": "🎨",
-    "tags": ["Canvas", "设计", "提效"],
+    "tags": ["Canvas", "设计", "提效", "可在线使用"],
     "demoUrl": "https://starttown.github.io/TemplateFlow/",
     "repoUrl": "https://github.com/starttown/TemplateFlow"
   },
   {
     "name": "AI批量文生图工具",
-    "description": "基于魔搭社区免费API的AI批量文生图工具,仅支持本地部署使用。",
+    "description": "基于魔搭社区免费API的AI批量文生图工具",
     "icon": "🎨",
-    "tags": ["AI", "图片生成", "提效"],
+    "tags": ["AI", "图片生成", "提效", "需要使用本地代理"],
     "demoUrl": "https://starttown.github.io/AI_Batch_Images_Gen/",
     "repoUrl": "https://github.com/starttown/AI_Batch_Images_Gen"
+  },
+  {
+    "name": "AI提示词拼接工具",
+    "description": "一个通过模块化组合的方式快速拼接生成AI提示词的轻量级Web工具",
+    "icon": "🎨",
+    "tags": ["AI提示词生成", "简化", "可在线使用"],
+    "demoUrl": "https://starttown.github.io/AI_prompt-generator/",
+    "repoUrl": "https://github.com/starttown/AI_prompt-generator"
   },
   {
     "name": "下一个神器？",
