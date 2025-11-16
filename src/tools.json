@@ -8,6 +8,14 @@
     "repoUrl": "https://github.com/starttown/TemplateFlow"
   },
   {
+    "name": "AI批量文生图工具",
+    "description": "基于魔搭社区免费API的AI批量文生图工具,仅支持本地部署使用。",
+    "icon": "🎨",
+    "tags": ["AI", "图片生成", "提效"],
+    "demoUrl": "https://starttown.github.io/AI_Batch_Images_Gen/",
+    "repoUrl": "https://github.com/starttown/AI_Batch_Images_Gen"
+  },
+  {
     "name": "下一个神器？",
     "description": "这个位置留给你的下一个工具！在 GitHub 提交 Issue，告诉我你的想法。",
     "icon": "🚀",
