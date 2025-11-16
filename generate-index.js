@@ -1,11 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 
-// 读取模板和数据
-const templatePath = path.join(__dirname, 'src', 'template.html');
-const toolsDataPath = path.join(__dirname, 'src', 'tools.json');
-const outputPath = path.join(__dirname, 'index.html');
+// 路径设置
+const srcDir = path.join(__dirname, 'src');
+const rootDir = __dirname;
 
+const templatePath = path.join(srcDir, 'template.html');
+const toolsDataPath = path.join(srcDir, 'tools.json');
+const stylePath = path.join(srcDir, 'style.css');
+const outputPath = path.join(rootDir, 'index.html');
+const outputStylePath = path.join(rootDir, 'style.css');
+
+// 读取模板和数据
 const template = fs.readFileSync(templatePath, 'utf8');
 const tools = JSON.parse(fs.readFileSync(toolsDataPath, 'utf8'));
 
@@ -31,7 +37,8 @@ const toolsHtml = tools.map(tool => `
 // 替换占位符
 const finalHtml = template.replace('<!-- TOOLS_PLACEHOLDER -->', toolsHtml);
 
-// 写入最终的 index.html
+// 写入文件
 fs.writeFileSync(outputPath, finalHtml);
+fs.writeFileSync(outputStylePath, fs.readFileSync(stylePath));  // 复制CSS文件
 
-console.log('✅ index.html has been generated successfully!');
+console.log('✅ index.html and style.css have been generated successfully!');
