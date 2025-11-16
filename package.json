@@ -1,0 +1,12 @@
+{
+  "name": "awesome-tools-website",
+  "version": "1.0.0",
+  "description": "My open-source toolbox website.",
+  "main": "generate-index.js",
+  "scripts": {
+    "build": "node generate-index.js"
+  },
+  "keywords": ["tools", "toolbox", "open-source"],
+  "author": "starttown",
+  "license": "MIT"
+}

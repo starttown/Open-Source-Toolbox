@@ -1,0 +1,18 @@
+[
+  {
+    "name": "图片平面套版工具集",
+    "description": "可视化设计模板，支持批量替换图片素材，让海报制作效率倍增。",
+    "icon": "🎨",
+    "tags": ["Canvas", "设计", "提效"],
+    "demoUrl": "https://starttown.github.io/TemplateFlow/",
+    "repoUrl": "https://github.com/starttown/TemplateFlow"
+  },
+  {
+    "name": "下一个神器？",
+    "description": "这个位置留给你的下一个工具！在 GitHub 提交 Issue，告诉我你的想法。",
+    "icon": "🚀",
+    "tags": ["敬请期待"],
+    "demoUrl": "https://github.com/your-username/this-repo/issues",
+    "repoUrl": null
+  }
+]
