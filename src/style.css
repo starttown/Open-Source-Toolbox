@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
     color: #1f2937;
     line-height: 1.6;
     min-height: 100vh;
@@ -23,7 +23,7 @@ body {
 header {
     text-align: center;
     padding: 4rem 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
     color: white;
     position: relative;
     overflow: hidden;
@@ -106,7 +106,7 @@ main::before {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #10b981, #059669);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -169,7 +169,7 @@ main::before {
 }
 
 .tag:hover {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #10b981, #059669);
     color: white;
     transform: scale(1.05);
 }
@@ -214,14 +214,14 @@ main::before {
 }
 
 .btn.primary {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #10b981, #059669);
     color: white;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
 }
 
 .btn.primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
 }
 
 .btn.secondary {
@@ -254,12 +254,12 @@ footer::before {
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #10b981, #059669);
     border-radius: 2px;
 }
 
 footer a {
-    color: #667eea;
+    color: #10b981;
     text-decoration: none;
     font-weight: 600;
     position: relative;
@@ -273,12 +273,12 @@ footer a::after {
     left: 0;
     width: 0;
     height: 2px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #10b981, #059669);
     transition: width 0.3s ease;
 }
 
 footer a:hover {
-    color: #764ba2;
+    color: #059669;
 }
 
 footer a:hover::after {
@@ -346,10 +346,10 @@ footer a:hover::after {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #10b981, #059669);
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+    background: linear-gradient(135deg, #059669, #047857);
 }
