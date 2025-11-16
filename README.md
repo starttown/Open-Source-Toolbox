@@ -2,7 +2,7 @@
 
 这个仓库是我所有开源工具的导航主页，通过 GitHub Actions 自动构建和部署。
 
-**[🌐 在线访问]([开始小镇开源工具箱](https://starttown.github.io/Open-Source-Toolbox/))** 
+**[🌐 在线访问](https://starttown.github.io/Open-Source-Toolbox/)** 
 
 ## 📋 工具列表
 
